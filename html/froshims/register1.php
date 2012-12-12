@@ -12,7 +12,7 @@
     // validate submission
     if (empty($_POST["name"]) || empty($_POST["gender"]) || empty($_POST["dorm"]))
     {
-        header("Location: http://localhost/~jharvard/froshims/froshims1.php");
+        header("Location: http://cs75project0.pagodabox.com/html/froshims/froshims1.php");
         exit;
     }
 
