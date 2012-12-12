@@ -34,7 +34,7 @@
         <table style="border: 0; margin-left: auto; margin-right: auto; text-align: left">
           <tr>
             <td>Name:</td>
-            <td><input name="name" type="text" value="<? echo htmlspecialchars($_POST["name"]) ?>"></td>
+            <td><input name="name" type="text" value="<? if (isset($_POST["name"])) echo htmlspecialchars($_POST["name"]) ?>"></td>
           </tr>
           <tr>
             <td>Captain:</td>
